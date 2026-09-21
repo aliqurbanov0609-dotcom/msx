@@ -1,0 +1,11 @@
+{
+  "name": "MSX Personal Launcher",
+  "version": "1.0.0",
+  "parameter": "menu:https://aliqurbanov0609-dotcom.github.io/msx-launcher/menu.json",
+  "launcher": {
+    "type": "default",
+    "icon": "apps",
+    "image": "none",
+    "color": "#19e6a1"
+  }
+}
