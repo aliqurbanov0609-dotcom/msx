@@ -1,0 +1,188 @@
+{
+  "headline": "MSX PERSONAL LAUNCHER",
+  "menu": [
+    {
+      "icon": "music-note",
+      "label": "MUSIC",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:music-note",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Spotify",
+            "action": "link:https://open.spotify.com/"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "movie",
+      "label": "VIDEO",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:movie",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "YouTube",
+            "action": "link:https://www.youtube.com/tv#/"
+          },
+          {
+            "title": "VK Video",
+            "action": "link:https://vk.com/video"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "movie",
+      "label": "FILMS",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:movie",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Lampa",
+            "action": "link:https://lampa.mx/"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "tv",
+      "label": "TV",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:tv",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "IPTV",
+            "action": "info:Добавьте IPTV-ссылку в menu.json"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "apps",
+      "label": "APPS",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:apps",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "TorrServe Matrix",
+            "action": "info:Для запуска нативного TorrServe нужен URI или поддерживаемый action вашей платформы."
+          }
+        ]
+      }
+    },
+    {
+      "icon": "language",
+      "label": "WEB",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:language",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Google",
+            "action": "link:https://www.google.com/"
+          },
+          {
+            "title": "MSX Info",
+            "action": "link:https://msx.benzac.de/info/"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "videogame-asset",
+      "label": "GAMES",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:videogame-asset",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "CrazyGames",
+            "action": "link:https://www.crazygames.com/"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "star",
+      "label": "FAVORITES",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:star",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Add Favorites",
+            "action": "info:Избранное можно расширить, добавив свои ссылки в menu.json"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "settings",
+      "label": "SETTINGS",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,2",
+          "icon": "msx-white-soft:settings",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "MSX Settings",
+            "action": "info:Настройки MSX открываются через системное меню Media Station X."
+          },
+          {
+            "title": "Reload Launcher",
+            "action": "reload"
+          }
+        ]
+      }
+    }
+  ]
+}
